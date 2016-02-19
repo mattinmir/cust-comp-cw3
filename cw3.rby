@@ -1,0 +1,16 @@
+INCLUDE "prelude.rby".
+
+# Question 1
+
+a = [id, id] <-> [id, id].
+b = row 2 (add ; fork).
+
+
+# Question 2 
+
+s2 = fork ; [min, max].
+insertionSort = (row 3 s2 )<|>(row 2 s2)<|>(s2).
+
+
+
+current = s2.
